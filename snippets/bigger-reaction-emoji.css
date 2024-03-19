@@ -1,0 +1,27 @@
+/**
+ * Copyright (c) 2024 - present MazeyMoos0022
+ * Licenced to mazeymoos.com
+ */
+
+:root {
+  /**
+   * column = reaction text on new line
+   * row = reaction text on same line
+   */
+  --reaction-box-direction: column;
+  --reaction-emoji-size: 100px;
+}
+
+.reactionTooltipInner-2eNtr9 {
+  flex-direction: var(--reaction-box-direction);
+  text-align: center;
+}
+
+.reactionTooltipInner-2eNtr9 > .emoji {
+  width: 100%;
+  height: var(--reaction-emoji-size);
+}
+
+.reactionTooltipInner-2eNtr9 > .reactionTooltipText-2M3J-B {
+  margin-top: 11px;
+}
