@@ -1,0 +1,31 @@
+/**
+ * Copyright (c) 2024 - present MazeyMoos0022
+ * Licenced to mazeymoos.com
+ */
+
+.roleColor-nA7BqX::after {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.125;
+  background: currentColor;
+}
+
+.member-2gU6Ar .badges {
+  z-index: 1;
+}
+
+.member-2gU6Ar.selected-1-Z6gm .roleColor-nA7BqX::after {
+  border-radius: 4px;
+}
+
+.membersGroup-2eiWxl + .member-2gU6Ar {
+  margin-top: 5px;
+}
+
+.membersGroup-2eiWxl + .member-2gU6Ar .roleColor-nA7BqX::after {
+  border-radius: 5px 5px 0 0;
+}
